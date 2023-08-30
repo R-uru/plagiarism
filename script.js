@@ -15,5 +15,9 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Display the value in the output element
     output.textContent = inputValue;
+
+    // Reset the form and button after submission
+    textarea.value = '';  // Clear the input
+    button.disabled = false;  // Enable the button again
   });
 });
