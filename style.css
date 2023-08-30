@@ -40,7 +40,7 @@ textarea {
 button {
   border-radius: 7px;
 }
-button:focus, button:hover {
+button:hover, .facebook:hover p{
   color: white;
   background-color: #7a7a7a;
 }
