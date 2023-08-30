@@ -21,14 +21,14 @@ a {
 }
 .facebook p{
   position: absolute;
-  bottom: 4%;
+  bottom: 1px;
   left: 0;
   padding: 10px;
   width: 130px;
   border: solid #3d3d3d 2px;
   background-color: #f0f0f0;
   color: #000000;
-  border-radius: 5px 20px 5px 5px;
+  border-radius: 5px 20px 5px 0px;
 }
 textarea {
   text-align: left;
@@ -36,4 +36,11 @@ textarea {
 }
 ::placeholder {
   text-align: center;
+}
+button {
+  border-radius: 7px;
+}
+button:focus, button:hover {
+  color: white;
+  background-color: #7a7a7a;
 }
