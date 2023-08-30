@@ -17,6 +17,9 @@ button {
 }
 a {
   text-decoration: none;
+  color: red;
+}
+a:hover {
   color: #616161;
 }
 .facebook p{
