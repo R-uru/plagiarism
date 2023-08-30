@@ -4,8 +4,9 @@ document.addEventListener('DOMContentLoaded', function() {
   const button = document.getElementById('submitButton');
   const textarea = document.getElementById('myTextarea');
   const output = document.getElementById('output');
-  const copyButton = document.getElementById('copyButton'); // Add this line to select the copy button
-
+  const copyButton = document.getElementById('copyButton');
+  
+  // Function to insert special characters into the string
   function insertword(inputString) {
     return inputString.split('').join('‎');
   }
@@ -40,5 +41,11 @@ document.addEventListener('DOMContentLoaded', function() {
     setTimeout(function() {
       notification.style.display = 'none';
     }, 2000); // Hide after 2 seconds
+  });
+
+  // Attach a click event listener to the dark mode button
+  const darkModeButton = document.getElementById('darkModeButton');
+  darkModeButton.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
   });
 });
