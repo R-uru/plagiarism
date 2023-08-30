@@ -47,3 +47,8 @@ button:hover, .facebook:hover p{
   color: white;
   background-color: #7a7a7a;
 }
+#output {
+  position: relative;
+  top: 5px;
+  z-index: 100
+}
