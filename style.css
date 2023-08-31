@@ -9,9 +9,18 @@ body {
   color: #000000;
 }
 
+/* ... (other styles) */
 /* Dark mode styles */
 body.dark-mode {
   background-color: #222222;
+  color: #ffffff;
+}
+body.dark-mode button,
+body.dark-mode a p,
+body.dark-mode textarea,
+body.dark-mode ::placeholder,
+body.dark-mode :focus {
+  background-color: #333333;
   color: #ffffff;
 }
 .main {
@@ -43,9 +52,13 @@ a:hover {
   color: #000000;
   border-radius: 5px 20px 5px 0px;
 }
+body.dark-mode .facebook p {
+  border: solid #969696 2px;
+}
 textarea {
   text-align: left;
   resize: none;
+  outline: none;
 }
 ::placeholder {
   text-align: center;
@@ -71,5 +84,10 @@ button:hover, .facebook:hover p{
   background-color: #4CAF50;
   color: white;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
-#
+#darkModeButton {
+  position: absolute;
+  right: 0;
+  width: 90px;
+}
