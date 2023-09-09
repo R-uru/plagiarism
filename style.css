@@ -9,7 +9,7 @@ body, a {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-decoration: none;
 }
-
+/*code*/
 body.dark-mode {
   background-color: #222222;
   color: #ffffff;
