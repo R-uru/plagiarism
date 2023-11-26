@@ -130,5 +130,6 @@ button {
   textarea {
     width: 85%; /* 50% of the parent element's width */
     height: 180px; /* 8 times the font-size of the element */
+    s
 }
 }
