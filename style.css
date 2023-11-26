@@ -118,4 +118,17 @@ button {
   body {
       background-color: lightcoral;
   }
+  a {
+    background-color: aquamarine;
+  }
+  /* .dark {
+    position: absolute;
+    left: -30px;
+    margin-top: 40px;
+    transform: rotate(-90deg);
+  } */
+  textarea {
+    width: 85%; /* 50% of the parent element's width */
+    height: 180px; /* 8 times the font-size of the element */
+}
 }
